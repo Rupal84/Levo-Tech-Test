@@ -25,41 +25,41 @@ function App() {
         </Card.Footer>
       </Card>
       </Col>
-    )
-  }
+    );
+  };
   
   const cards = [
     {
-      title: "Love of learning, art keys to a great year for Gwen",
-      content: "Nunc nec scelerisque felis. Nam porta eros odio, sit amet pretium lectus dapibus a. Nam in venenatis dolor. Etiam ac fringilla purus. Ut consequat. ",
+      title: 'Love of learning, art keys to a great year for Gwen',
+      content: 'Nunc nec scelerisque felis. Nam porta eros odio, sit amet pretium lectus dapibus a. Nam in venenatis dolor. Etiam ac fringilla purus. Ut consequat. ',
       date: '30 Sep, 2020'
     },
     {
-      title: "Curious mind leads the way for carer Jill",
-      content: "Sed gravida tempor justo, accumsan suscipit ex pulvinar et. Mauris mi lorem, tempor sit amet feugiat in, efficitur eu mauris. Nulla facilisi. ",
+      title: 'Curious mind leads the way for carer Jill',
+      content: 'Sed gravida tempor justo, accumsan suscipit ex pulvinar et. Mauris mi lorem, tempor sit amet feugiat in, efficitur eu mauris. Nulla facilisi. ',
       date: '23 Sep, 2020'
     },
     {
-      title: "Celebrating our volunteers",
-      content: "Curabitur ornare nisl quis pharetra tincidunt. Cras congue leo metus, eu accumsan ex vulputate vel. Proin elementum varius sapien, sit amet eleifend nunc iaculis eu eu accumsan ex vulputate.",
+      title: 'Celebrating our volunteers',
+      content: 'Curabitur ornare nisl quis pharetra tincidunt. Cras congue leo metus, eu accumsan ex vulputate vel. Proin elementum varius sapien, sit amet eleifend nunc iaculis eu eu accumsan ex vulputate.',
       date: '12 Sep, 2020'
     },
     {
-      title: "A great birthday present",
-      content: "Nulla commodo tincidunt lectus varius semper. Aenean interdum justo sit amet fringilla ullamcorper. Nulla pharetra ipsum nulla, sed ornare orci tincidunt et. ",
+      title: 'A great birthday present',
+      content: 'Nulla commodo tincidunt lectus varius semper. Aenean interdum justo sit amet fringilla ullamcorper. Nulla pharetra ipsum nulla, sed ornare orci tincidunt et. ',
       date: '30 Jan, 2020'
     },
     {
-      title: "A journey to nowhere",
-      content: "Curabitur gravida ligula vitae pretium pellentesque. Curabitur ullamcorper, nibh non tempor laoreet, purus orci posuere tortor.",
+      title: 'A journey to nowhere',
+      content: 'Curabitur gravida ligula vitae pretium pellentesque. Curabitur ullamcorper, nibh non tempor laoreet, purus orci posuere tortor.',
       date: '23 Dec, 2020'
     },
     {
-      title: "Amazing restaurants",
-      content: "Aliquam pharetra arcu a ligula aliquam viverra. Proin sollicitudin nulla eros, eu varius tortor tincidunt vel. Sed vitae metus dolor.",
+      title: 'Amazing restaurants',
+      content: 'Aliquam pharetra arcu a ligula aliquam viverra. Proin sollicitudin nulla eros, eu varius tortor tincidunt vel. Sed vitae metus dolor.',
       date: '30 Nov, 2020'
     }
-  ]
+  ];
   return (
     <Container>
       <div className="header-container">
