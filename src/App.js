@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -11,23 +11,23 @@ function App() {
   const getCard = ({ title, content, date }, index) => {
     return (
       <Col key={index} xs={12} sm={12} md={6} lg={4} xl={4} className="card-col">
-      <Card >
-        <Card.Body>
-        <p>{date}</p>
-          <Card.Title>{title}</Card.Title>
-          <Card.Text>
-            {content}
-          </Card.Text>
+        <Card data-testid="card">
+          <Card.Body>
+            <p>{date}</p>
+            <Card.Title>{title}</Card.Title>
+            <Card.Text>
+              {content}
+            </Card.Text>
 
-        </Card.Body>
-        <Card.Footer>
-          <button type="button" className="card-btn btn btn-outline-primary">READ MORE</button>
-        </Card.Footer>
-      </Card>
+          </Card.Body>
+          <Card.Footer>
+            <button type="button" className="card-btn btn btn-outline-primary">READ MORE</button>
+          </Card.Footer>
+        </Card>
       </Col>
     );
   };
-  
+
   const cards = [
     {
       title: 'Love of learning, art keys to a great year for Gwen',
@@ -70,15 +70,15 @@ function App() {
         <Col>
           <CardDeck>
             <Row>
-            {cards.slice(0, cardsCount).map((card, index) => getCard(card, index))}
+              {cards.slice(0, cardsCount).map((card, index) => getCard(card, index))}
             </Row>
           </CardDeck></Col>
       </Row>
       <div className="readmore-btn">
-  <button type="button" className="btn btn-outline-danger" 
-  onClick={()=> {
-    cardsCount === 3 ? setCardsCount(6) : setCardsCount(3);
-   }}>{cardsCount === 3 ? 'READ MORE' : 'SHOW LESS'}</button>
+        <button data-testid="read-more" type="button" className="btn btn-outline-danger"
+          onClick={() => {
+            cardsCount === 3 ? setCardsCount(6) : setCardsCount(3);
+          }}>{cardsCount === 3 ? 'READ MORE' : 'SHOW LESS'}</button>
       </div>
     </Container>
   );

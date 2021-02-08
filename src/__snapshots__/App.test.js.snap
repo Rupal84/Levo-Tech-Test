@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component renders component successfully 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      class="header-container"
+    >
+      <h1
+        class="display-4 header"
+      >
+        Related Articles
+      </h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam felis lectus, lobortis vel eros nec, vulputate sodales quam. Aenean ultricies viverra dui nec ullamcorper. Integer ultricies sodales ex quis gravida. Integer quis risus hendrerit, faucibus libero sit amet, egestas elit. Etiam porta lectus malesuada dolor tempor, et tristique risus pulvinar. 
+      </p>
+    </div>
+    <div
+      class="row"
+    >
+      <div
+        class="col"
+      >
+        <div
+          class="card-deck"
+        >
+          <div
+            class="row"
+          >
+            <div
+              class="card-col col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12"
+            >
+              <div
+                class="card"
+                data-testid="card"
+              >
+                <div
+                  class="card-body"
+                >
+                  <p>
+                    30 Sep, 2020
+                  </p>
+                  <div
+                    class="card-title h5"
+                  >
+                    Love of learning, art keys to a great year for Gwen
+                  </div>
+                  <p
+                    class="card-text"
+                  >
+                    Nunc nec scelerisque felis. Nam porta eros odio, sit amet pretium lectus dapibus a. Nam in venenatis dolor. Etiam ac fringilla purus. Ut consequat. 
+                  </p>
+                </div>
+                <div
+                  class="card-footer"
+                >
+                  <button
+                    class="card-btn btn btn-outline-primary"
+                    type="button"
+                  >
+                    READ MORE
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="card-col col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12"
+            >
+              <div
+                class="card"
+                data-testid="card"
+              >
+                <div
+                  class="card-body"
+                >
+                  <p>
+                    23 Sep, 2020
+                  </p>
+                  <div
+                    class="card-title h5"
+                  >
+                    Curious mind leads the way for carer Jill
+                  </div>
+                  <p
+                    class="card-text"
+                  >
+                    Sed gravida tempor justo, accumsan suscipit ex pulvinar et. Mauris mi lorem, tempor sit amet feugiat in, efficitur eu mauris. Nulla facilisi. 
+                  </p>
+                </div>
+                <div
+                  class="card-footer"
+                >
+                  <button
+                    class="card-btn btn btn-outline-primary"
+                    type="button"
+                  >
+                    READ MORE
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="card-col col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12"
+            >
+              <div
+                class="card"
+                data-testid="card"
+              >
+                <div
+                  class="card-body"
+                >
+                  <p>
+                    12 Sep, 2020
+                  </p>
+                  <div
+                    class="card-title h5"
+                  >
+                    Celebrating our volunteers
+                  </div>
+                  <p
+                    class="card-text"
+                  >
+                    Curabitur ornare nisl quis pharetra tincidunt. Cras congue leo metus, eu accumsan ex vulputate vel. Proin elementum varius sapien, sit amet eleifend nunc iaculis eu eu accumsan ex vulputate.
+                  </p>
+                </div>
+                <div
+                  class="card-footer"
+                >
+                  <button
+                    class="card-btn btn btn-outline-primary"
+                    type="button"
+                  >
+                    READ MORE
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="readmore-btn"
+    >
+      <button
+        class="btn btn-outline-danger"
+        data-testid="read-more"
+        type="button"
+      >
+        READ MORE
+      </button>
+    </div>
+  </div>
+</div>
+`;
