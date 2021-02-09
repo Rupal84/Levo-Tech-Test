@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck';
-import './App.scss';
+import './styles/App.scss';
 
 function App() {
   const [cardsCount, setCardsCount] = useState(3);

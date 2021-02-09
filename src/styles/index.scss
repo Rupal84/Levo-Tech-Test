@@ -1,0 +1,6 @@
+@import "./variables.scss";
+
+body {
+  background-color: map-get($colors, light-grey);
+  margin-top: 2em;
+}
