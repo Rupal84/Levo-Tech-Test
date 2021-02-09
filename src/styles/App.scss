@@ -21,7 +21,7 @@
 }
 
 .readmore-btn {
-  padding: 30px 0;
+  padding: 1rem 0;
   display: flex;
   justify-content: center;
   border-color: map-get($colors, custom-wht);
@@ -45,7 +45,7 @@
           width: 100%;
         }
 
-        margin-bottom: 10px;
+        margin-bottom: 0.7rem;
         background: map-get($colors, bright-yellow);
         color: map-get($colors, custom-wht);
         min-height: 344px;
