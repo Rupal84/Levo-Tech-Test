@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Levo-Tech-Test/static/css/main.42220315.chunk.css",
-    "main.js": "/Levo-Tech-Test/static/js/main.e6837ce5.chunk.js",
-    "main.js.map": "/Levo-Tech-Test/static/js/main.e6837ce5.chunk.js.map",
+    "main.css": "/Levo-Tech-Test/static/css/main.ed33bdfa.chunk.css",
+    "main.js": "/Levo-Tech-Test/static/js/main.8a3a4ebd.chunk.js",
+    "main.js.map": "/Levo-Tech-Test/static/js/main.8a3a4ebd.chunk.js.map",
     "runtime-main.js": "/Levo-Tech-Test/static/js/runtime-main.c50e2471.js",
     "runtime-main.js.map": "/Levo-Tech-Test/static/js/runtime-main.c50e2471.js.map",
     "static/css/2.150d169a.chunk.css": "/Levo-Tech-Test/static/css/2.150d169a.chunk.css",
@@ -12,14 +12,14 @@
     "static/js/3.bcf18869.chunk.js.map": "/Levo-Tech-Test/static/js/3.bcf18869.chunk.js.map",
     "index.html": "/Levo-Tech-Test/index.html",
     "static/css/2.150d169a.chunk.css.map": "/Levo-Tech-Test/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.42220315.chunk.css.map": "/Levo-Tech-Test/static/css/main.42220315.chunk.css.map",
+    "static/css/main.ed33bdfa.chunk.css.map": "/Levo-Tech-Test/static/css/main.ed33bdfa.chunk.css.map",
     "static/js/2.6b08c834.chunk.js.LICENSE.txt": "/Levo-Tech-Test/static/js/2.6b08c834.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c50e2471.js",
     "static/css/2.150d169a.chunk.css",
     "static/js/2.6b08c834.chunk.js",
-    "static/css/main.42220315.chunk.css",
-    "static/js/main.e6837ce5.chunk.js"
+    "static/css/main.ed33bdfa.chunk.css",
+    "static/js/main.8a3a4ebd.chunk.js"
   ]
 }
