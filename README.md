@@ -1,6 +1,9 @@
 # Currency Converter
 
-   This is a single page web application built in `reactjs`. This application offers nice UI built with `bootstrap` to display cards. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and has nearly `100%` unit test coverage. 
+   This is a single page web application built in `reactjs`. This application offers nice UI built with `bootstrap` to display cards. This application is hosted on github pages and can be accessed on following url.
+
+http://rupal84.github.io/Levo-Tech-Test
+
 
 ## External Libraries used
 
